@@ -4,7 +4,8 @@ This is an small example to how to load a gif in xamarin forms and be able to pa
 using FFImageloading package.
 
 ## Android
-* to add pause / resume on android platform we have to add the GifImageView package.
+* to add pause / resume on android platform You have to add the GifImageView package and gif file
+  in assets folder.
 
 
 ![](image.gif)
