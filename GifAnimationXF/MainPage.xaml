@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:GifAnimationXF" 
+             xmlns:renderers="clr-namespace:GifAnimationXF.Renderers" 
+             x:Class="GifAnimationXF.MainPage">
+    <StackLayout>
+        <Label Text="Tap to stop/resume gif" HorizontalOptions="CenterAndExpand" Margin="50"/>
+        <renderers:GifImage x:Name="gifImage" 
+                            HorizontalOptions="FillAndExpand" 
+                            VerticalOptions="FillAndExpand" 
+                            Source="image.gif">
+            <renderers:GifImage.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GifImage_Tapped" />
+            </renderers:GifImage.GestureRecognizers>
+        </renderers:GifImage>
+    </StackLayout>
+</ContentPage>
