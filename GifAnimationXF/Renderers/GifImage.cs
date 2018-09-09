@@ -13,6 +13,5 @@ namespace GifAnimationXF.Renderers
 
         public static readonly BindableProperty AnimateProperty =
             BindableProperty.Create(nameof(Animate), typeof(bool), typeof(GifImage), false);
-
     }
 }

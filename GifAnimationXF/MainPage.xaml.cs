@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace GifAnimationXF
@@ -14,7 +15,7 @@ namespace GifAnimationXF
             InitializeComponent();
         }
 
-        void GifImage_Tapped(object sender, System.EventArgs e)
+        private void GifImage_Tapped(object sender, System.EventArgs e)
         {
             gifImage.Animate  = !gifImage.Animate;
         }

@@ -1,10 +1,11 @@
-﻿using System;
-using CoreAnimation;
+﻿using CoreAnimation;
+
 using FFImageLoading.Forms.Platform;
+
+using Xamarin.Forms;
+
 using GifAnimationXF.iOS.Renderers;
 using GifAnimationXF.Renderers;
-using UIKit;
-using Xamarin.Forms;
 
 [assembly: ExportRenderer(typeof(GifImage), typeof(GifImageRenderer))]
 namespace GifAnimationXF.iOS.Renderers

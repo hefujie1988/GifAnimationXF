@@ -5,7 +5,7 @@
              xmlns:renderers="clr-namespace:GifAnimationXF.Renderers" 
              x:Class="GifAnimationXF.MainPage">
     <StackLayout>
-        <Label Text="Tap to stop/resume gif" HorizontalOptions="CenterAndExpand" Margin="50"/>
+        <Label Text="Tap to pause / resume gif animation" HorizontalOptions="CenterAndExpand" Margin="50"/>
         <renderers:GifImage x:Name="gifImage" 
                             HorizontalOptions="FillAndExpand" 
                             VerticalOptions="FillAndExpand" 
