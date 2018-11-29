@@ -1,4 +1,4 @@
-# GifAnimationXF
+# Gif Animation Xamarin Forms
 
 This is an small example to how to load a gif in xamarin forms and be able to pause / resume the animation
 using FFImageloading package.
